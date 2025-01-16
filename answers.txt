@@ -1,0 +1,9 @@
+Answer #1 - When a number is added to a string, JavaScript performs type coercion, converting the number into a string to combine the two values.
+This is because the (+) operator has dual purposes: addition for numbers and concatenation for strings.
+If either operand is a string, JavaScript treats the operation as concatenation, resulting in a string.
+
+Answer #2 - Using the (==) operator could cause a bug when comparing values of different types because it performs type coercion before making the comparison.
+
+Answer #3 - The (%) operator keeps throwing me off because I keep assuming it gives the percentage or fraction of a number.
+
+Answer #4 - The modulus operator (%) is useful when you need to determine whether a number is divisible by another number.
